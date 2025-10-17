@@ -1,0 +1,25 @@
+.related-products-container{
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+}
+.related-products-list{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    list-style-type: none;
+}
+.related-products-container hr{
+    margin-bottom: 20px;
+    background-color: red;
+    height: 3px;
+    margin-top: 20px;
+    width: 250px;
+    align-self: center;
+}
+.related-products-container h1{
+    text-align: center;
+    margin-top: 40px;
+}

@@ -1,0 +1,18 @@
+.sidecontainer{
+    background-color: #E0E0E0;
+    height: 100vh;
+    width: 20%;
+    padding: 20px;
+}
+.sideproduct-container{
+    display: flex;
+    flex-direction: row;
+    gap:15px;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+}

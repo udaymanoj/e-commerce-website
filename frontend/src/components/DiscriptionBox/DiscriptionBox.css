@@ -1,0 +1,23 @@
+.discription-box-top{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.discription-box{
+    border: 1px solid lightgrey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.discription-text{
+     border: 1px solid lightgrey;
+     padding: 20px;
+     line-height: 1.5;
+}
+.discription-box-container{
+    width: 78%;
+    margin: auto;
+    margin-top: 30px;
+}

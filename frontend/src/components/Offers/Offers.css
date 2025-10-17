@@ -1,0 +1,32 @@
+.offer-container
+{
+    height: 60vh;
+    width: 65%;
+    margin: auto;
+   background-image: linear-gradient(to top, white, #ffd1ff 100%);
+   padding: 0px 140px;
+   display:flex;
+    flex-direction: row;
+}
+
+.offer-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.offer-left button{
+    height: 40px;
+    color: white;
+    border-radius: 15px;
+    width: 120px;
+   border: none;
+   background-color:#F25E86;
+   margin-top: 30px;
+}
+.offer-right{
+    flex: 1;
+}
+.offer-right img{
+    height: 400px;
+    margin-left: 30px;
+}

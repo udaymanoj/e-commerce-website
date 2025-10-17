@@ -1,0 +1,30 @@
+.item-container
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 300px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.item-container img{
+    width: 250px;
+    margin-bottom: 10px;
+}
+.item-price{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    margin-top: 10px;
+}
+.old-price{
+    text-decoration: line-through;
+    color: lightgrey;
+}.name{
+    width: 250px;
+}
+.card:hover {
+ position: relative; 
+ top: -10px;
+ transition: 1s;
+}

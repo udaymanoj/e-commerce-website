@@ -1,0 +1,35 @@
+.addproduct-inputField-container{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.add-button
+{
+    background-color: lightblue;
+    width: 130px;
+    height: 40px;
+    border-radius: 8px;
+    outline: none;
+    margin:20px ;
+}
+.addproduct-container{
+    width: 50%;
+    background-color: #E0E0E0;
+    margin-left: 50px;
+    padding: 30px;
+    border-radius: 10px;
+}
+.addproduct-price-container{
+    display: flex;
+    flex-direction: row;
+    gap :15px;
+}
+.input{
+    height: 40px;
+}
+.dropdown{
+    height: 40px;
+    width: 150px;
+}
